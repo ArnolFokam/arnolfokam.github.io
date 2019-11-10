@@ -18,6 +18,7 @@ jQuery(document).ready(function() {
     isotope();
     jarallax();
     data_images();
+    anchor();
 
     jQuery(window).on('resize', function() {
         miniboxes();
@@ -68,6 +69,27 @@ function miniboxes() {
     }
 }
 
+function anchor(){
+    
+    "use strict";
+    
+    jQuery('.anchor_nav').onePageNav();
+    
+    var scrollOffset = 0;
+    
+    jQuery(".anchor a").on('click', function(evn){
+        evn.preventDefault();
+        jQuery('html,body').scrollTo(this.hash, this.hash, {
+            gap: { y: -scrollOffset-85 },
+            animation:{
+                duration: 1500,
+                easing: "easeInOutExpo"
+            }
+        });
+        return false;   
+    });
+}
+
 function animate_text() {
 
     "use strict";
@@ -75,7 +97,7 @@ function animate_text() {
     var animateSpan = jQuery('.animation_text_word');
 
     animateSpan.typed({
-        strings: ["Freelancer", "French/English Translator", "Web Developer"],
+        strings: [ "Tech lover", "Web Developer", "Anti-coffee coder"],
         loop: true,
         startDelay: 1e3,
         backDelay: 2e3

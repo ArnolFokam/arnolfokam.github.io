@@ -17,7 +17,6 @@
 
 html{
 	overflow-x: hidden;
-	scroll-behavior: smooth;
 }
 
 body{
@@ -46,7 +45,7 @@ input, button, a {
 }
 
 .page_section {
-	padding-bottom: 100px;
+	padding: 50px 0;
 }
 
 .page_preloader{
@@ -568,7 +567,6 @@ input, button, a {
 	height: auto;
 	clear: both;
 	float: left;
-	padding-bottom: 122px;
 	position: relative;
 	margin-top: -6px;
 	 
@@ -735,6 +733,79 @@ outline: none;
 }
 .about_wrap .buttons_wrap ul li a:hover:before{width: 180%;}
 
+#services {
+}
+
+.services_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	background-color: #f6f7fd;
+	margin-bottom: 70px;
+	text-align: left;
+	padding: 50px 30px 0 30px;
+	 
+}
+
+
+.services_wrap .list_wrap{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	 
+}
+.services_wrap .list_wrap ul{
+	margin: 0px 0px 0px -30px;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.services_wrap .list_wrap ul li{
+	margin: 0px 0px 30px 0px;
+	float: left;
+	width: 33.3333%;
+	padding-left: 30px;
+	text-align: center;
+	 
+}
+.services_wrap .list_wrap ul li .inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	padding: 40px 40px 33px 40px;
+	top: 0px;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+	 
+}
+.services_wrap .list_wrap ul li .inner:hover{top: -5px;box-shadow:0px 0px 20px  5px rgba(0,0,0,.15);}
+.services_wrap .list_wrap ul li .icon{
+	margin-bottom: 21px;
+}
+
+.services_wrap .list_wrap ul li .icon i{
+	font-size: 45px;
+	color: #E3872D;
+}
+.services_wrap .list_wrap ul li .title_service{margin-bottom: 17px;}
+.services_wrap .list_wrap ul li .title_service h3{
+    font-size: 22px;
+    font-weight: 600;
+    color: #000000;
+	line-height: 1;
+}
+
+
 
 /* ------ MOBILE HEADER -----*/
 
@@ -890,6 +961,7 @@ outline: none;
 	.about_wrap .leftbox{padding-right: 0px;}
 }
 @media (max-width: 1200px) {
+	.services_wrap .list_wrap ul li{width: 50%;}
 	.about_wrap .leftbox{display: none;}
 	.about_wrap .rightbox{padding-left: 0px;width: 100%;}
 }
@@ -908,6 +980,8 @@ outline: none;
 	.rightpart{padding-left: 0px;}
 }
 @media (max-width: 768px) {
+	.services_wrap .list_wrap ul{margin: 0px;}
+	.services_wrap .list_wrap ul li{width: 100%;padding-left: 0px;}
 	.hero_header_wrap .name_holder h3{font-size: 40px;}
 	.hero_header_wrap .text_typing p{font-size: 21px;}
 	.about_wrap .about_short_contact_wrap ul li{width: 100%;}
