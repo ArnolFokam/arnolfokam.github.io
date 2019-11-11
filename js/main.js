@@ -23,10 +23,10 @@ jQuery(document).ready(function() {
     totop_myhide();
     contact_form();
 
-    jQuery(window).on('scroll',function(){
+    jQuery(window).on('scroll', function() {
         //e.preventDefault();
         totop_myhide();
-        
+
     });
 
     jQuery(window).on('resize', function() {
@@ -78,24 +78,26 @@ function miniboxes() {
     }
 }
 
-function anchor(){
-    
+function anchor() {
+
     "use strict";
-    
+
     jQuery('.anchor_nav').onePageNav();
-    
+
     var scrollOffset = 0;
-    
-    jQuery(".anchor a").on('click', function(evn){
+
+    jQuery(".anchor a").on('click', function(evn) {
         evn.preventDefault();
         jQuery('html,body').scrollTo(this.hash, this.hash, {
-            gap: { y: -scrollOffset-85 },
-            animation:{
+            gap: {
+                y: -scrollOffset - 85
+            },
+            animation: {
                 duration: 1500,
                 easing: "easeInOutExpo"
             }
         });
-        return false;   
+        return false;
     });
 }
 
@@ -106,7 +108,7 @@ function animate_text() {
     var animateSpan = jQuery('.animation_text_word');
 
     animateSpan.typed({
-        strings: [ "Tech lover", "Web Developer", "Anti-coffee coder"],
+        strings: ["Tech lover", "Web Developer", "Anti-coffee coder"],
         loop: true,
         startDelay: 1e3,
         backDelay: 2e3
@@ -173,37 +175,37 @@ function switcher() {
 
 }
 
-function jarallax(){
-	
-	"use strict";
-	
-	jQuery('.jarallax').each(function(){
-		var element			= jQuery(this);
-		var	customSpeed		= element.data('speed');
-		
-		if(customSpeed !== "undefined" && customSpeed !== ""){
-			customSpeed = customSpeed;
-		}else{
-			customSpeed 	= 0.5;
-		}
-		
-		element.jarallax({
-			speed: customSpeed,
-			automaticResize: true
-		});
-	});
+function jarallax() {
+
+    "use strict";
+
+    jQuery('.jarallax').each(function() {
+        var element = jQuery(this);
+        var customSpeed = element.data('speed');
+
+        if (customSpeed !== "undefined" && customSpeed !== "") {
+            customSpeed = customSpeed;
+        } else {
+            customSpeed = 0.5;
+        }
+
+        element.jarallax({
+            speed: customSpeed,
+            automaticResize: true
+        });
+    });
 }
 
-function isotope(){
-	
-	"use strict";
-	
-	jQuery('.masonry').isotope({
-		itemSelector: '.masonry_item',
-		masonry: {
-			
-		}
-	});
+function isotope() {
+
+    "use strict";
+
+    jQuery('.masonry').isotope({
+        itemSelector: '.masonry_item',
+        masonry: {
+
+        }
+    });
 }
 
 
@@ -222,41 +224,45 @@ function about_animation() {
     }
 }
 
-function data_images(){
-	
-	"use strict";
-	
-	var data			= jQuery('*[data-img-url]');
-	
-	data.each(function(){
-		var element			= jQuery(this);
-		var url				= element.data('img-url');
-		element.css({backgroundImage: 'url('+url+')'});
-	});
+function data_images() {
+
+    "use strict";
+
+    var data = jQuery('*[data-img-url]');
+
+    data.each(function() {
+        var element = jQuery(this);
+        var url = element.data('img-url');
+        element.css({
+            backgroundImage: 'url(' + url + ')'
+        });
+    });
 }
 
-function totop(){
-    
+function totop() {
+
     "use strict";
-    
+
     jQuery(".totop").on('click', function(e) {
-        e.preventDefault();     
-        jQuery("html, body").animate({ scrollTop: 0 }, 'slow');
+        e.preventDefault();
+        jQuery("html, body").animate({
+            scrollTop: 0
+        }, 'slow');
         return false;
     });
 }
 
-function totop_myhide(){
-    
+function totop_myhide() {
+
     "use strict";
-    
-    var toTop       =jQuery(".totop");
-    if(toTop.length){
-        var topOffSet   =toTop.offset().top;
-        
-        if(topOffSet > 1000){
-            toTop.addClass('opened');   
-        }else{
+
+    var toTop = jQuery(".totop");
+    if (toTop.length) {
+        var topOffSet = toTop.offset().top;
+
+        if (topOffSet > 1000) {
+            toTop.addClass('opened');
+        } else {
             toTop.removeClass('opened');
         }
     }
@@ -264,44 +270,45 @@ function totop_myhide(){
 
 
 
-function contact_form(){
-    
+function contact_form() {
+
     "use strict";
-    
-    jQuery(".contact_form #send_message").on('click', function(){
-        
-        var name        = jQuery(".contact_form #name").val();
-        var email       = jQuery(".contact_form #email").val();
-        var message     = jQuery(".contact_form #message").val();
-        var subject     = jQuery(".contact_form #subject").val();
-        var success     = jQuery(".contact_form .returnmessage").data('success');
-    
-        jQuery(".contact_form .returnmessage").empty(); //To empty previous error/success message.
+
+    function success() {
+        form.reset();
+        jQuery("#contact_form .returnmessage").append("<span class='contact_success'>"+ success +"</span>");
+        jQuery("#contact_form .returnmessage").slideDown(500).delay(4000).slideUp(500);
+    }
+
+    function error() {
+        jQuery("#contact_form .returnmessage").slideDown(500).delay(2000).slideUp(500);
+    }
+
+    jQuery("#contact_form #send_message").on('click', function() {
+
+
+        var form = document.getElementById("#conatct_form");
+
+        jQuery("#contact_form .returnmessage").empty(); //To empty previous error/success message.
         //checking for blank fields 
-        if(name===''||email===''||message===''){
-            
-            jQuery('div.empty_notice').slideDown(500).delay(2000).slideUp(500);
-        }
-        else{
-            // Returns successful data submission message when the entered information is stored in database.
-            jQuery.post("https://formspree.io/mvookdob",{ ajax_name: name, ajax_email: email, ajax_message:message, ajax_subject: subject}, function(data) {
-                
-                jQuery(".contact_form .returnmessage").append(data);//Append returned message to message paragraph
-                
-                
-                if(jQuery(".contact_form .returnmessage span.contact_error").length){
-                    jQuery(".contact_form .returnmessage").slideDown(500).delay(2000).slideUp(500);     
-                }else{
-                    jQuery(".contact_form .returnmessage").append("<span class='contact_success'>"+ success +"</span>");
-                    jQuery(".contact_form .returnmessage").slideDown(500).delay(4000).slideUp(500);
-                }
-                
-                if(data===""){
-                    jQuery("#contact_form")[0].reset();//To reset form fields on success
-                }
-                
-            });
-        }
-        return false; 
+        var data = new FormData(form);
+        ajax(form.method, fform.action, data, success, error);
+
+        return false;
     });
+}
+
+function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState !== XMLHttpRequest.DONE) return;
+        if (xhr.status === 200) {
+            success(xhr.response, xhr.responseType);
+        } else {
+            error(xhr.status, xhr.response, xhr.responseType);
+        }
+    };
+    xhr.send(data);
 }
