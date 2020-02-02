@@ -108,7 +108,7 @@ function animate_text() {
     var animateSpan = jQuery('.animation_text_word');
 
     animateSpan.typed({
-        strings: ["Tech lover", "Web Developer", "Anti-coffee coder"],
+        strings: ["Tech lover", "Full stack Developer", "Anti-coffee coder"],
         loop: true,
         startDelay: 1e3,
         backDelay: 2e3
