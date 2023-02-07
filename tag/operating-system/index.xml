@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operating System | Manuel Fokam</title>
+    <link>https://arnolfokam.github.io/tag/operating-system/</link>
+      <atom:link href="https://arnolfokam.github.io/tag/operating-system/index.xml" rel="self" type="application/rss+xml" />
+    <description>Operating System</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 07 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://arnolfokam.github.io/media/icon_hu3f0d32f8853a5677610b4bdf99412516_38708_512x512_fill_lanczos_center_3.png</url>
+      <title>Operating System</title>
+      <link>https://arnolfokam.github.io/tag/operating-system/</link>
+    </image>
+    
+    <item>
+      <title>Salad-OS</title>
+      <link>https://arnolfokam.github.io/project/salad-os/</link>
+      <pubDate>Mon, 07 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://arnolfokam.github.io/project/salad-os/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

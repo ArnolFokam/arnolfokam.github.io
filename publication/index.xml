@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Manuel Fokam</title>
+    <link>https://arnolfokam.github.io/publication/</link>
+      <atom:link href="https://arnolfokam.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://arnolfokam.github.io/media/icon_hu3f0d32f8853a5677610b4bdf99412516_38708_512x512_fill_lanczos_center_3.png</url>
+      <title>Publications</title>
+      <link>https://arnolfokam.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Hierarchically Composing Level Generators for the Creation of Complex Structures</title>
+      <link>https://arnolfokam.github.io/publication/mchammer/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://arnolfokam.github.io/publication/mchammer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Effects of Annotations&#39; Density on Named Entity Recognition Models&#39; Performance in the Context of African Languages</title>
+      <link>https://arnolfokam.github.io/publication/effects-of-annotations/</link>
+      <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://arnolfokam.github.io/publication/effects-of-annotations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influence of Contrastive Learning on Source Code Plagiarism Detection through Recursive Neural Networks</title>
+      <link>https://arnolfokam.github.io/publication/influence-of-contrastive-learning/</link>
+      <pubDate>Mon, 21 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>https://arnolfokam.github.io/publication/influence-of-contrastive-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

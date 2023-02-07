@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contrastive Learning | Manuel Fokam</title>
+    <link>https://arnolfokam.github.io/tag/contrastive-learning/</link>
+      <atom:link href="https://arnolfokam.github.io/tag/contrastive-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Contrastive Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Feb 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://arnolfokam.github.io/media/icon_hu3f0d32f8853a5677610b4bdf99412516_38708_512x512_fill_lanczos_center_3.png</url>
+      <title>Contrastive Learning</title>
+      <link>https://arnolfokam.github.io/tag/contrastive-learning/</link>
+    </image>
+    
+    <item>
+      <title>Contrastive Self-Supervised Learning in 2022</title>
+      <link>https://arnolfokam.github.io/post/contrastive-self-supervised-learning/</link>
+      <pubDate>Tue, 07 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://arnolfokam.github.io/post/contrastive-self-supervised-learning/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
