@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>3 | Manuel Fokam</title>
+    <title>3 | Manuel Arnol Fokam</title>
     <link>https://arnolfokam.github.io/publication-type/3/</link>
       <atom:link href="https://arnolfokam.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
@@ -25,7 +25,8 @@
       <link>https://arnolfokam.github.io/publication/effects-of-annotations/</link>
       <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://arnolfokam.github.io/publication/effects-of-annotations/</guid>
-      <description></description>
+      <description>&lt;p&gt;Currently a course project being turned into a publishable research paper.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

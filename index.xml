@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Manuel Fokam</title>
+    <title>Manuel Arnol Fokam</title>
     <link>https://arnolfokam.github.io/</link>
       <atom:link href="https://arnolfokam.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Manuel Fokam</description>
+    <description>Manuel Arnol Fokam</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://arnolfokam.github.io/media/icon_hu3f0d32f8853a5677610b4bdf99412516_38708_512x512_fill_lanczos_center_3.png</url>
-      <title>Manuel Fokam</title>
+      <title>Manuel Arnol Fokam</title>
       <link>https://arnolfokam.github.io/</link>
     </image>
     
@@ -53,7 +53,8 @@
       <link>https://arnolfokam.github.io/publication/effects-of-annotations/</link>
       <pubDate>Tue, 09 Aug 2022 00:00:00 +0000</pubDate>
       <guid>https://arnolfokam.github.io/publication/effects-of-annotations/</guid>
-      <description></description>
+      <description>&lt;p&gt;Currently a course project being turned into a publishable research paper.&lt;/p&gt;
+</description>
     </item>
     
     <item>
