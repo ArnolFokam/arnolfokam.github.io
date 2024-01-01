@@ -72,8 +72,8 @@ params:
           buttons:
             - name: Publications
               url: publications/
-            - name: Posts
-              url: posts/
+            # - name: Posts
+            #   url: posts/
             # - name: Courses
             #   url: courses/
             # - name: Data
@@ -113,7 +113,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Prof. Name"
+      text: "Arnol Fokam"
       icon: favicon.ico
       iconHeight: 18
 
