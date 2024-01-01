@@ -11,18 +11,15 @@ taxonomies:
 
 menu:
     main:
-        - name: Papers
-          url: papers/
+        - name: Publications
+          url: publications/
           weight: 1
-        - name: Courses
-          url: courses/
+        # - name: Posts
+        #   url: posts/
           weight: 2
-        - name: Data
-          url: data/
-          weight: 3 
-        - name: Newsletter
-          url: https://pmichaillat.substack.com
-          weight: 4
+        - name: Tags
+          url: tags/
+          weight: 3
 
 params:
     description: "I am an MSc by dissertation student in Computer Science at the University of the Witwatersrand. I am also a part-time engineering intern at Instadeep."
@@ -76,14 +73,10 @@ params:
             #   url: posts/
             # - name: Courses
             #   url: courses/
-            # - name: Data
-            #   url: data/
-            # - name: Newsletter
-            #   url: https://pmichaillat.substack.com
             # - name: Tags
             #   url: tags/
-            # - name: Archive
-            #   url: archive/
+            # - name: Newsletter
+            #   url: https://pmichaillat.substack.com
     socialIcons:
         - name: Resume
           url: resume.pdf
