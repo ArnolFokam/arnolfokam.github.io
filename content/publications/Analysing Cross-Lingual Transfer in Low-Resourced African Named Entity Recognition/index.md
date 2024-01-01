@@ -4,7 +4,7 @@ date: 2023-11-25
 tags: ["Natural Language Processing","Named Entity Recognition","Transfer Learning", "Low-resourced Languages"]
 author: "Micheal Beukman, Arnol Fokam"
 description: "Have you ever wondered what properties of a language helps transfer learning in a low-resourced settings? TLDR; english tokens overlap" 
-summary: "Have you ever wondered what properties of a language helps transfer learning in a low-resourced settings? TLDR; english tokens overlap." 
+summary: "Have you ever wondered which properties of a language help transfer learning in a low-resourced settings?" 
 cover:
     image: "paper.png"
     alt: "main image of the paper"
