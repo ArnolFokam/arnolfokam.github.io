@@ -1,17 +1,17 @@
 ---
-title: "The Impact of Data Corruption on Named Entity Recognition for Low-resourced Languages" 
-date: 2023-11-25
-tags: ["Natural Language Processing","Named Entity Recognition","Low-resourced Languages"]
-author: ["Arnol Fokam", "Micheal Beukman"]
-description: "We all know that data quality is important, but how important is it with respect to quantiy? We provide a systematic analysis of this question on named-entity recognition for low-resourced languages." 
-summary: "We all know that data quality is important, but how important is it with respect to quantiy? We provide a systematic analysis of this question on named-entity recognition for low-resourced languages." 
+title: "Paper Title 2" 
+date: 2015-12-01
+tags: ["keyword 1","keyword 2","keyword 4"]
+author: ["Author Name 1", "Author Name 2"]
+description: "This paper shows other things. Published in Journal Name, 2015." 
+summary: "This paper shows other things using other techniques and different data." 
 cover:
-    image: "paper.png"
-    alt: "main image of the paper"
+    image: "paper2.png"
+    alt: "Image caption"
     relative: false
 editPost:
-    URL: "https://arxiv.org/abs/2208.04568v2"
-    Text: "ArXiv"
+    URL: "https://doi.org/10.1073/pnas.1816454115"
+    Text: "Other Journal Name"
 
 ---
 
