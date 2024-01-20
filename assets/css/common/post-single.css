@@ -79,8 +79,9 @@
 .post-content a,
 .post-meta a,
 .toc a:hover {
-    box-shadow: 0 2px 0 black;
+    box-shadow: 0 2px 0 var(--darkpurple);
     color: currentColor; 
+}
 }
 
 .post-content a code {
@@ -340,6 +341,14 @@
     background: var(--code-bg);
 }
 
+.post-tags a:hover {
+    background: var(--lightpurple);
+}
+
+.paginav a:hover {
+    background: var(--lightpurple);
+}
+
 .share-buttons {
     margin: 13px 0;
     padding-inline-start: var(--radius);
@@ -363,11 +372,11 @@ h4:hover .anchor,
 h5:hover .anchor,
 h6:hover .anchor {
     display: inline-flex;
-    color: black;
+    color: var(--darkpurple);
     margin-inline-start: 10px;
     font-weight: 700;
     user-select: none;
-    box-shadow: 0 0px 0 black;
+    box-shadow: 0 0px 0 var(--darkpurple);
 }
 
 .paginav {
@@ -417,9 +426,9 @@ img.in-text {
 }
 
 a[href^="#fn:"], a[href^="#fnref:"] {
-     box-shadow: 0 0px 0 black;
+     box-shadow: 0 0px 0 var(--darkpurple);
 }
 
 a[href^="#fn:"]:hover, a[href^="#fnref:"]:hover {
-    color: black;
+    color: var(--darkpurple);
 }

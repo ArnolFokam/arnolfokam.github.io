@@ -1,5 +1,5 @@
-baseURL: "https://arnolfokam.github.io" 
-title: Arnol Fokam
+baseURL: "https://pascalmichaillat.org/hugo-website/" 
+title: Prof. Name
 paginate: 20
 theme: PaperMod
 
@@ -11,20 +11,24 @@ taxonomies:
 
 menu:
     main:
-        - name: Publications
-          url: publications/
+        - name: Papers
+          url: papers/
           weight: 1
-        # - name: Posts
-        #   url: posts/
+        - name: Courses
+          url: courses/
           weight: 2
-        - name: Tags
-          url: tags/
-          weight: 3
+        - name: Data
+          url: data/
+          weight: 3 
+        - name: Newsletter
+          url: https://pmichaillat.substack.com
+          weight: 4
 
 params:
-    description: "I am an MSc by dissertation student in Computer Science at the University of the Witwatersrand. I am also a part-time engineering intern at Instadeep."
-    author: Arnol Fokam
-    googleAnalyticsID: "G-4EJRYDQ3SZ"
+    description: "I am a Professor of Subject at the University of Place. My research covers various topics.
+consequat."
+    author: Name
+    # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
@@ -46,58 +50,44 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Arnol Fokam
-          subtitle: "
-          <div class='profile_desc'>
-            <p>
-              I am an MSc by dissertation student in Computer Science at the University of the Witwatersrand where I received the <b><a href='https://deepmind.google/about/education/' target='_blank'>DeepMind Scholarship</a></b> 
-              to support my studies in Artificial Intelligence. My research focuses on the development of novel data augmentation techniques for 
-              <b><a href='https://ankeshanand.com/blog/2020/01/26/contrative-self-supervised-learning.html' target='_blank'>contrastive self-supervised learning</a></b>.
-            </p>
-            <br/>
-            <p>
-              Additionally, I am a part-time engineering intern at Instadeep, where I work on 
-              <b><a href='https://quality-diversity.github.io/' target='_blank'>quality diversity</a></b> to generate training data to help a 
-              reinforcement learning agent perform 3D bin packing.
-            </p>
-          </div>
-          "
-          imageUrl: "profile.jpeg"
+          title: Prof. Namely Name
+          subtitle: "I am a Professor of Subject at the University of Place. I work on various topics. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo."
+          imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
-          imageTitle: Arnol Fokam
+          imageTitle: Prof. Name
           buttons:
-            - name: Publications
-              url: publications/
-            # - name: Posts
-            #   url: posts/
-            # - name: Courses
-            #   url: courses/
-            # - name: Tags
-            #   url: tags/
-            # - name: Newsletter
-            #   url: https://pmichaillat.substack.com
+            - name: Papers
+              url: papers/
+            - name: Courses
+              url: courses/
+            - name: Data
+              url: data/
+            - name: Newsletter
+              url: https://pmichaillat.substack.com
+            - name: Tags
+              url: tags/
+            - name: Archive
+              url: archive/
     socialIcons:
-        - name: Resume
-          url: resume.pdf
+        - name: CV
+          url: cv.pdf
         - name: Email
-          url: mailto:a.fokam@instadeep.com
-        # - name: Location
-        #   url: location/
-        # - name: Office Hours
-        #   url: officehours/
+          url: mailto:pascal.michaillat@gmail.com
+        - name: Location
+          url: location/
+        - name: Office Hours
+          url: officehours/
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cA1hu0UAAAAJ&hl=en
-        # - name: YouTube
-        #   url: https://www.youtube.com/@pmichaillat
+          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+        - name: YouTube
+          url: https://www.youtube.com/@pmichaillat
         - name: GitHub
-          url: https://github.com/ArnolFokam
-        # - name: Substack
-        #   url: https://pmichaillat.substack.com
+          url: https://github.com/pmichaillat
+        - name: Substack
+          url: https://pmichaillat.substack.com
         - name: Twitter
-          url: https://twitter.com/ArnolFokam
-        - name: LinkedIn
-          url: https://www.linkedin.com/in/arnolfokam
+          url: https://twitter.com/pmichaillat
 
     assets:
         disableHLJS: true
@@ -106,7 +96,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Arnol Fokam"
+      text: "Prof. Name"
       icon: favicon.ico
       iconHeight: 18
 
