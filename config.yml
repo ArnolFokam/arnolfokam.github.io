@@ -24,7 +24,7 @@ menu:
 params:
     description: "I am an MSc by dissertation student in Computer Science at the University of the Witwatersrand. I am also a part-time engineering intern at Instadeep."
     author: Arnol Fokam
-    googleAnalyticsID: "G-4EJRYDQ3SZ"
+    # googleAnalyticsID: "G-4EJRYDQ3SZ"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false
