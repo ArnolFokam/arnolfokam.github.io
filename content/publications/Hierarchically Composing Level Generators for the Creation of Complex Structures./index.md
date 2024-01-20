@@ -2,7 +2,7 @@
 title: "Hierarchically Composing Level Generators for the Creation of Complex Structures" 
 date: 2022-11-25
 tags: ["Procedural Content Generation","Minecraft","Evolutionary Algorithms"]
-author: "Michael Beukman, Manuel Fokam, Marcel Kruger, Guy Axelrod, Muhammad Nasir, Branden Ingram, Benjamin Rosman, Steven James"
+author: ["Michael Beukman", "Manuel Fokam", "Marcel Kruger", "Guy Axelrod", "Muhammad Nasir", "Branden Ingram", "Benjamin Rosman", "Steven James"]
 description: "We composet level generators hierarchically to create complex structures in Minecraft."
 summary: "We composet level generators hierarchically to create complex structures easily." 
 cover:

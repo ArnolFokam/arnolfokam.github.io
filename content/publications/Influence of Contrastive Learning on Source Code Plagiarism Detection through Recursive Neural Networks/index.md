@@ -2,7 +2,7 @@
 title: "Influence of Contrastive Learning on Source Code Plagiarism Detection through Recursive Neural Networks" 
 date: 2021-11-25
 tags: ["Contrastive Learning","Recursive Neural Network"]
-author: "Manuel Fokam and Ritesh Ajoodha"
+author: ["Manuel Fokam", "Ritesh Ajoodha"]
 description: "We improve a source code similarity detection baseline by leveraging contrastive learning."
 summary: "We improve a source code similarity detection baseline by leveraging contrastive learning." 
 cover:

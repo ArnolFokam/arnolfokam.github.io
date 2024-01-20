@@ -2,7 +2,7 @@
 title: "The Impact of Data Corruption on Named Entity Recognition for Low-resourced Languages" 
 date: 2023-11-25
 tags: ["Natural Language Processing","Named Entity Recognition","Low-resourced Languages"]
-author: "Arnol Fokam, Micheal Beukman"
+author: ["Arnol Fokam", "Micheal Beukman"]
 description: "We all know that data quality is important, but how important is it with respect to quantiy? We provide a systematic analysis of this question on named-entity recognition for low-resourced languages." 
 summary: "We all know that data quality is important, but how important is it with respect to quantiy? We provide a systematic analysis of this question on named-entity recognition for low-resourced languages." 
 cover:
